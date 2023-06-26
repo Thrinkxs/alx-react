@@ -1,0 +1,17 @@
+.Notifications {
+  border: 1px solid #e01d3f;
+  padding: 10px;
+}
+
+.Notifications p {
+  margin: 0;
+  margin-top: 15px;
+}
+
+[data-priority="default"] {
+  color: blue;
+}
+
+[data-priority="urgent"] {
+  color: red;
+}
